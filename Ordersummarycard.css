@@ -1,0 +1,109 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 1440px;
+    display: flexbox;
+    
+}
+
+#Intro {
+    background-image: url(images/illustration-hero.svg);
+    height: 250px;
+    width: 400px;
+    margin: 100px auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#body {
+    background: white;
+    width: 370px;
+    height: 350px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    margin-bottom: 100px 
+}
+
+#span1 {
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+.annual {
+    background:hsl(225, 100%, 98%);
+    margin: 15px 30px;
+    text-align: justify;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.annual img {
+    float: left;
+    margin: 5px;
+}
+
+#change {
+    float: right;
+    color: blue;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+#change:hover {
+    color: purple;
+}
+
+.annualPlan {
+    margin-left: 70px;
+    padding-top: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    justify-content:space-between;
+}
+
+
+
+#proceed {
+    color: black;
+    background: hsl(223, 47%, 23%);
+    box-shadow: 0px 15px 5px #d7e5f0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+}
+
+#cancel {
+    color: black;
+    margin:10px 20px;
+    padding: 10px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
